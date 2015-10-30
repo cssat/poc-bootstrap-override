@@ -24,6 +24,7 @@
         </div>
         <div class="navbar-collapse collapse" id="navbar-main">
           <ul class="nav navbar-nav">
+            <li><a href="#colors">Colors</a></li>
            	<li><a href="#navbar">Navbar</a></li>
            	<li><a href="#buttons">Buttons</a></li>
            	<li><a href="#typography">Typography</a></li>
@@ -41,6 +42,106 @@
           <h1>POC Bootstrap/United Overrides</h1>
           <p>Shiny is awesome because it lets you build visualizations very quickly with pre-built UI components. Unfortunately, it's a little messy to customize. This is a demo of overrides for the Shiny Bootstrap theme (technically, the Bootswatch United theme, which is itself a Bootstrap override). You can see the original demo here: <a href="https://bootswatch.com/united/">https://bootswatch.com/united/</a></p>
           <p>To use these overrides, just include the custom.css file from this repo in your Shiny app after all of the other styles.</p>
+        </div>
+      </div>
+
+      <!-- Colors
+      ================================================== -->
+      <div class="clearfix">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="page-header">
+              <h1 id="colors">Colors</h1>
+            </div>
+
+            <div class="bs-component">
+              <h2>POC Brand Colors</h2>
+              <p>These are the primary POC brand colors. The blue is used throughout the Data Portal while the green is used sparingly.</p>
+              <div class="row">
+                <div class="color col-sm-12 col-md-3">
+                  <div class="color__inner">
+                    <div class="color__swatch" style="background: #3a6f8f;"></div>
+                    <span class="color__value">#3a6f8f</span>
+                  </div>
+                </div>
+                <div class="color col-sm-12 col-md-3">
+                  <div class="color__inner">
+                    <div class="color__swatch" style="background: #96c283;"></div>
+                    <span class="color__value">#96c283</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="bs-component">
+              <h2>Data Portal Accent Colors</h2>
+              <p>These are the accent colors used on the Data Portal website. They may also be darkened slightly (such as button bottom borders, etc).</p>
+              <div class="row">
+                <div class="color col-sm-12 col-md-3">
+                  <div class="color__inner">
+                    <div class="color__swatch" style="background: #5bb1b4;"></div>
+                    <span class="color__value">#5bb1b4</span>
+                  </div>
+                </div>
+                <div class="color col-sm-12 col-md-3">
+                  <div class="color__inner">
+                    <div class="color__swatch" style="background: #ee6e73;"></div>
+                    <span class="color__value">#ee6e73</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="bs-component">
+              <h2>Data Portal Visualization Colors</h2>
+              <p>These are the colors used for line graphs. For more options and variants, see the color palette here: http://materializecss.com/color.html</p>
+              <div class="row">
+                <div class="color col-sm-12 col-md-3">
+                  <div class="color__inner">
+                    <div class="color__swatch" style="background: #ffc400;"></div>
+                    <span class="color__value">#ffc400</span>
+                  </div>
+                </div>
+                <div class="color col-sm-12 col-md-3">
+                  <div class="color__inner">
+                    <div class="color__swatch" style="background: #00acc1;"></div>
+                    <span class="color__value">#00acc1</span>
+                  </div>
+                </div>
+                <div class="color col-sm-12 col-md-3">
+                  <div class="color__inner">
+                    <div class="color__swatch" style="background: #f44336;"></div>
+                    <span class="color__value">#f44336</span>
+                  </div>
+                </div>
+                <div class="color col-sm-12 col-md-3">
+                  <div class="color__inner">
+                    <div class="color__swatch" style="background: #4caf50;"></div>
+                    <span class="color__value">#4caf50</span>
+                  </div>
+                </div>
+                <div class="color col-sm-12 col-md-3">
+                  <div class="color__inner">
+                    <div class="color__swatch" style="background: #fb8c00;"></div>
+                    <span class="color__value">#fb8c00</span>
+                  </div>
+                </div>
+                <div class="color col-sm-12 col-md-3">
+                  <div class="color__inner">
+                    <div class="color__swatch" style="background: #673ab7;"></div>
+                    <span class="color__value">#673ab7</span>
+                  </div>
+                </div>
+                <div class="color col-sm-12 col-md-3">
+                  <div class="color__inner">
+                    <div class="color__swatch" style="background: #d81b60;"></div>
+                    <span class="color__value">#d81b60</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
       </div>
 
@@ -625,16 +726,6 @@
                 <li class="active"><a href="https://bootswatch.com/united/#home" data-toggle="tab">Home</a></li>
                 <li><a href="https://bootswatch.com/united/#profile" data-toggle="tab">Profile</a></li>
                 <li class="disabled"><a>Disabled</a></li>
-                <li class="dropdown">
-                  <a class="dropdown-toggle" data-toggle="dropdown" href="https://bootswatch.com/united/#">
-                    Dropdown <span class="caret"></span>
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a href="https://bootswatch.com/united/#dropdown1" data-toggle="tab">Action</a></li>
-                    <li class="divider"></li>
-                    <li><a href="https://bootswatch.com/united/#dropdown2" data-toggle="tab">Another action</a></li>
-                  </ul>
-                </li>
               </ul>
               <div id="myTabContent" class="tab-content">
                 <div class="tab-pane fade active in" id="home">
@@ -722,31 +813,31 @@
             <h2 id="pagination">Pagination</h2>
             <div class="bs-component">
               <ul class="pagination">
-                <li class="disabled"><a href="https://bootswatch.com/united/#">«</a></li>
+                <li class="disabled"><a href="https://bootswatch.com/united/#"><i class="fa fa-angle-double-left"></i></a></li>
                 <li class="active"><a href="https://bootswatch.com/united/#">1</a></li>
                 <li><a href="https://bootswatch.com/united/#">2</a></li>
                 <li><a href="https://bootswatch.com/united/#">3</a></li>
                 <li><a href="https://bootswatch.com/united/#">4</a></li>
                 <li><a href="https://bootswatch.com/united/#">5</a></li>
-                <li><a href="https://bootswatch.com/united/#">»</a></li>
+                <li><a href="https://bootswatch.com/united/#"><i class="fa fa-angle-double-right"></i></a></li>
               </ul>
 
               <ul class="pagination pagination-lg">
-                <li class="disabled"><a href="https://bootswatch.com/united/#">«</a></li>
+                <li class="disabled"><a href="https://bootswatch.com/united/#"><i class="fa fa-angle-double-left"></i></a></li>
                 <li class="active"><a href="https://bootswatch.com/united/#">1</a></li>
                 <li><a href="https://bootswatch.com/united/#">2</a></li>
                 <li><a href="https://bootswatch.com/united/#">3</a></li>
-                <li><a href="https://bootswatch.com/united/#">»</a></li>
+                <li><a href="https://bootswatch.com/united/#"><i class="fa fa-angle-double-right"></i></a></li>
               </ul>
 
               <ul class="pagination pagination-sm">
-                <li class="disabled"><a href="https://bootswatch.com/united/#">«</a></li>
+                <li class="disabled"><a href="https://bootswatch.com/united/#"><i class="fa fa-angle-double-left"></i></a></li>
                 <li class="active"><a href="https://bootswatch.com/united/#">1</a></li>
                 <li><a href="https://bootswatch.com/united/#">2</a></li>
                 <li><a href="https://bootswatch.com/united/#">3</a></li>
                 <li><a href="https://bootswatch.com/united/#">4</a></li>
                 <li><a href="https://bootswatch.com/united/#">5</a></li>
-                <li><a href="https://bootswatch.com/united/#">»</a></li>
+                <li><a href="https://bootswatch.com/united/#"><i class="fa fa-angle-double-right"></i></a></li>
               </ul>
             </div>
           </div>
@@ -759,8 +850,8 @@
               </ul>
 
               <ul class="pager">
-                <li class="previous disabled"><a href="https://bootswatch.com/united/#">← Older</a></li>
-                <li class="next"><a href="https://bootswatch.com/united/#">Newer →</a></li>
+                <li class="previous disabled"><a href="https://bootswatch.com/united/#"><i class="fa fa-angle-left"></i> Older</a></li>
+                <li class="next"><a href="https://bootswatch.com/united/#">Newer <i class="fa fa-angle-right"></i></a></li>
               </ul>
             </div>
           </div>
@@ -787,7 +878,7 @@
             <h2>Alerts</h2>
             <div class="bs-component">
               <div class="alert alert-dismissible alert-warning">
-                <button type="button" class="close" data-dismiss="alert">×</button>
+                <button type="button" class="close" data-dismiss="alert"><i class="fa fa-close"></i></button>
                 <h4>Warning!</h4>
                 <p>Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, <a href="https://bootswatch.com/united/#" class="alert-link">vel scelerisque nisl consectetur et</a>.</p>
               </div>
@@ -798,7 +889,7 @@
           <div class="col-lg-4">
             <div class="bs-component">
               <div class="alert alert-dismissible alert-danger">
-                <button type="button" class="close" data-dismiss="alert">×</button>
+                <button type="button" class="close" data-dismiss="alert"><i class="fa fa-close"></i></button>
                 <strong>Oh snap!</strong> <a href="https://bootswatch.com/united/#" class="alert-link">Change a few things up</a> and try submitting again.
               </div>
             </div>
@@ -806,7 +897,7 @@
           <div class="col-lg-4">
             <div class="bs-component">
               <div class="alert alert-dismissible alert-success">
-                <button type="button" class="close" data-dismiss="alert">×</button>
+                <button type="button" class="close" data-dismiss="alert"><i class="fa fa-close"></i></button>
                 <strong>Well done!</strong> You successfully read <a href="https://bootswatch.com/united/#" class="alert-link">this important alert message</a>.
               </div>
             </div>
@@ -814,7 +905,7 @@
           <div class="col-lg-4">
             <div class="bs-component">
               <div class="alert alert-dismissible alert-info">
-                <button type="button" class="close" data-dismiss="alert">×</button>
+                <button type="button" class="close" data-dismiss="alert"><i class="fa fa-close"></i></button>
                 <strong>Heads up!</strong> This <a href="https://bootswatch.com/united/#" class="alert-link">alert needs your attention</a>, but it's not super important.
               </div>
             </div>
@@ -1124,11 +1215,11 @@
                 <div class="modal-dialog">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="fa fa-close"></i></button>
                       <h4 class="modal-title">Modal title</h4>
                     </div>
                     <div class="modal-body">
-                      <p>One fine body…</p>
+                      <p>One fine body...</p>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -1178,20 +1269,13 @@
           </div>
         </div>
       </div>
-
-      <footer>
-        <div class="row">
-          <div class="col-lg-12">
-            <p>Made by <a href="http://thomaspark.co/" rel="nofollow">Thomas Park</a>. Contact him at <a href="mailto:thomas@bootswatch.com">thomas@bootswatch.com</a>.</p>
-            <p>Code released under the <a href="https://github.com/thomaspark/bootswatch/blob/gh-pages/LICENSE">MIT License</a>.</p>
-
-          </div>
-        </div>
-
-      </footer>
-
-
     </div>
+
+    <footer>
+      <div class="container">
+        <p>Modified theme by Erika Deal.</p>
+      </div>
+    </footer>
 
     <script type="text/javascript" src="./vendor/jquery.min.js"></script>
     <script type="text/javascript" src="./vendor/bootstrap.js"></script>
