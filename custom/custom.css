@@ -9,6 +9,7 @@ body {
   line-height: 1.42857143;
   color: #565656;
   background-color: #ffffff;
+  padding-top: 0;
 }
 
 a {
@@ -2019,7 +2020,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 0;
   border: 1px solid transparent;
 }
 @media (min-width: 768px) {
@@ -2214,8 +2215,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 .navbar-form {
@@ -2370,11 +2371,25 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   font-weight: 600;
   letter-spacing: 1px;
 }
+
+.navbar-default .navbar-nav > li > a.btn-primary {
+  color: #fff;
+  line-height: 16px;
+  margin-top: 5px;
+}
+
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #ee6e73;
   background-color: #fff;
 }
+
+.navbar-default .navbar-nav > li > a.btn-primary:hover,
+.navbar-default .navbar-nav > li > a.btn-primary:focus {
+  color: #fff;
+  background: #379093;
+}
+
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
@@ -2818,7 +2833,7 @@ a.badge:focus {
 .jumbotron {
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   color: inherit;
   background-color: #eeeeee;
 }
@@ -2853,7 +2868,7 @@ a.badge:focus {
   }
   .jumbotron h1,
   .jumbotron .h1 {
-    font-size: 63px;
+    font-size: 39px;
   }
 }
 .thumbnail {
@@ -4654,3 +4669,29 @@ button.close {
 .bs-docs-section h2 {
     padding-top: 30px;
 }
+
+/*************** CUSTOM PRIMARY TABS *****************/
+/* This tabbed navigation style should only be used under
+   a jumbotron as the primary form of page navigation. */
+
+.gray-tabs {
+  background: #eee;
+}
+
+.gray-tabs .nav-tabs {
+  max-width: 1170px;
+  margin: 0 auto;
+  float: none;
+}
+
+.gray-tabs .nav-tabs > li {
+  width: 20%;
+  text-align: center;
+}
+
+.gray-tabs .nav-tabs > li.active > a, 
+.gray-tabs .nav-tabs > li.active > a:hover, 
+.gray-tabs .nav-tabs > li.active > a:focus {
+  background: #eee;
+}
+
