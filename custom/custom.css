@@ -1638,6 +1638,8 @@ fieldset[disabled] .btn-link:focus {
   width: 100%;
   table-layout: fixed;
   border-collapse: separate;
+  border-spacing: 3px 0;
+  padding-bottom: 1rem;
 }
 .btn-group-justified > .btn,
 .btn-group-justified > .btn-group {
