@@ -4713,7 +4713,7 @@ button.close {
    display properties are a pain. */
 
 .btn-group-justified > button.btn {
-  width: 49%;
+  width: 48%;
   margin-right: 5px;
 }
 
