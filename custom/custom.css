@@ -4721,3 +4721,10 @@ button[type="submit"].btn-default {
   border: 0;
 }
 
+/************* FOOTER **************/
+p.footer {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #333;
+}
