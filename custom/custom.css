@@ -2215,8 +2215,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
   }
 }
 .navbar-form {
@@ -4670,6 +4670,10 @@ button.close {
     padding-top: 30px;
 }
 
+.bs-component {
+  padding-bottom: 20px;
+}
+
 /*************** CUSTOM PRIMARY TABS *****************/
 /* This tabbed navigation style should only be used under
    a jumbotron as the primary form of page navigation. */
@@ -4702,5 +4706,18 @@ button.close {
 .gray-tabs .tab-pane {
   max-width: 1170px;
   margin: 0 auto;
+}
+
+/************ SHINY BUTTON HANDLING ********************/
+/* Because Shiny requires a <button> element and button
+   display properties are a pain. */
+
+.btn-group-justified > button.btn {
+  width: 49%;
+  margin-right: 5px;
+}
+
+button[type="submit"].btn-default {
+  border: 0;
 }
 
