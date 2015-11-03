@@ -4706,6 +4706,7 @@ button.close {
 .gray-tabs .tab-pane {
   max-width: 1170px;
   margin: 0 auto;
+  padding: 3rem 0 5rem 0;
 }
 
 /************ SHINY BUTTON HANDLING ********************/
