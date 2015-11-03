@@ -443,7 +443,7 @@ output {
   background-color: #eaeaea;
   background-image: none;
   border: 0;
-  border-bottom: 2px solid #fff;
+  border-bottom: 3px solid #fff;
   border-radius: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -467,7 +467,7 @@ input[type="text"].form-control:focus,
 input[type="search"].form-control:focus,
 input[type="password"].form-control:focus,
 textarea.form-control:focus {
-    border-bottom: 2px solid #5bb1b4;
+    border-bottom: 3px solid #5bb1b4;
 }
 
 .form-control::-moz-placeholder {
@@ -957,7 +957,7 @@ fieldset[disabled] a.btn {
   color: #ffffff;
   background-color: #ee6e73;
   border-color: #ee6e73;
-  border-bottom: 2px solid #c6544b;
+  border-bottom: 3px solid #c6544b;
 }
 .btn-default:focus,
 .btn-default.focus {
@@ -1024,7 +1024,7 @@ fieldset[disabled] .btn-default.active {
   color: #ffffff;
   background-color: #5bb1b4;
   border-color: #5bb1b4;
-  border-bottom: 2px solid #379093;
+  border-bottom: 3px solid #379093;
 }
 .btn-primary:focus,
 .btn-primary.focus {
@@ -1091,7 +1091,7 @@ fieldset[disabled] .btn-primary.active {
   color: #ffffff;
   background-color: #66bb6a;
   border-color: #66bb6a;
-  border-bottom: 2px solid #388e3c;
+  border-bottom: 3px solid #388e3c;
 }
 .btn-success:focus,
 .btn-success.focus {
@@ -1158,7 +1158,7 @@ fieldset[disabled] .btn-success.active {
   color: #ffffff;
   background-color: #3a6f8f;
   border-color: #3a6f8f;
-  border-bottom: 2px solid #315e7a;
+  border-bottom: 3px solid #315e7a;
 }
 .btn-info:focus,
 .btn-info.focus {
@@ -1225,7 +1225,7 @@ fieldset[disabled] .btn-info.active {
   color: #ffffff;
   background-color: #efb73e;
   border-color: #efb73e;
-  border-bottom: 2px solid #e7a413;
+  border-bottom: 3px solid #e7a413;
 }
 .btn-warning:focus,
 .btn-warning.focus {
@@ -1292,7 +1292,7 @@ fieldset[disabled] .btn-warning.active {
   color: #ffffff;
   background-color: #df382c;
   border-color: #df382c;
-  border-bottom: 2px solid #bc271c;
+  border-bottom: 3px solid #bc271c;
 }
 .btn-danger:focus,
 .btn-danger.focus {
@@ -2352,7 +2352,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default {
   background-color: #fff;
   border: 0;
-  border-bottom: 2px solid #dedede;
+  border-bottom: 3px solid #dedede;
 }
 .navbar-default .navbar-brand {
   color: #565656;
@@ -4693,5 +4693,14 @@ button.close {
 .gray-tabs .nav-tabs > li.active > a:hover, 
 .gray-tabs .nav-tabs > li.active > a:focus {
   background: #eee;
+}
+
+.gray-tabs .tab-content {
+  background: #fff;
+}
+
+.gray-tabs .tab-pane {
+  max-width: 1170px;
+  margin: 0 auto;
 }
 
