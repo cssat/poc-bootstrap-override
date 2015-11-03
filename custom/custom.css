@@ -4728,26 +4728,3 @@ p.footer {
     padding-top: 15px;
     border-top: 1px solid #333;
 }
-
-/********** YOU'RE WELCOME **********/
-
-.sparklepony {
-  position: absolute;
-  right: 95%;
-  top: 0;
-  animation: sparklepony 15s infinite;
-}
-
-@-webkit-keyframes sparklepony {
-  25% { right: 0; }
-  50% { top: 95%; }
-  75% { right: 95%; }
-  100% { top: 0; }
-}
-
-@keyframes sparklepony {
-  25% { right: 0; }
-  50% { top: 95%; }
-  75% { right: 95%; }
-  100% { top: 0; }
-}
